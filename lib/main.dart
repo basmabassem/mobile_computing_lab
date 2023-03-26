@@ -11,20 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-          appBar: AppBar(
-            title: Text("Birthday Card"),
-            backgroundColor: Colors.green[200],
-          ),
-          body: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image(image: AssetImage('images/image1.jpg')),
-                Text("Happy Birthday !!")
-              ],
-            ),
-          )),
-    );
+        home: Scaffold(
+      appBar: AppBar(
+        title: Text("First Application"),
+        backgroundColor: Colors.greenAccent,
+      ),
+      body: Center(child: Text("Basma Bassem Zaher")),
+    ));
   }
 }
